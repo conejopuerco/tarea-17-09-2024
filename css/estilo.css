@@ -1,0 +1,66 @@
+.contenedor{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr 3fr 4fr;
+    grid-gap: 10px;
+    grid-template-rows: repeat(8, 3fr);
+}
+.contenedor>div{
+    background-color: greenyellow;
+}
+.contenedor .elemento{
+    background-color: yellow;
+    grid-column: 1/8;
+    border-radius: 30px;
+}
+.contenedor .site1{
+    background-color: darkorange;
+    grid-column: 1/3;
+    border-radius: 30px;
+    grid-row: 2/8;
+}
+.contenedor .site2{
+    background-color: darkslategray;
+    grid-column: 6/8;
+    grid-row: 2/8;
+    border-radius: 30px;
+}
+.contenedor .contenido{
+    background-color: brown;
+    grid-column: 3/6;
+    grid-row: 2/8;
+    border-radius: 15px;
+}
+.contenedor .footer{
+    background-color: darkseagreen;
+    grid-column: 1/8;
+    grid-row: 8/9;
+}
+.contenedor .cj1{
+    background-color: darkgoldenrod;
+    grid-column: 1/2;
+    grid-row: 3/7;
+}
+.contenedor .cj2{
+    background-color: darkgoldenrod;
+    grid-column: 2/3;
+    grid-row: 3/7;
+}
+.contenedor .contenido1{
+    background-color: darkblue;
+    grid-column: 3/4;
+    grid-row: 3/7;
+}
+.contenedor .contenido2{
+    background-color: darkblue;
+    grid-column: 4/5;
+    grid-row: 3/7;
+}
+.contenedor .contenido3{
+    background-color: darkblue;
+    grid-column: 5/6;
+    grid-row: 3/7;
+}
